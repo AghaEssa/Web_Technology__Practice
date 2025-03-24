@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar and Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        .left-side {
+            flex: 1;
+          max-width: 300px;
+            background-color: #aaa2a2;
+          display: inline-block;
+            padding: 10px;
+        }
+        .right-side {
+            flex: 1;
+display:inline-block;
+            background-color: #ffffff;
+            padding: 10px;
+
+            text-align: right;
+        }
+        .right-side .article-box {
+            background-color: #7a1bb1;
+            border: 1px solid rgba(62, 131, 13, 0.49);
+            padding: 5px 10px;
+            margin-bottom: 10px;
+            text-align: left;
+            max-width: 300px;
+            display: inline-block;
+        }
+        .nav-bar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-bar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav-bar li {
+            margin-right: 20px;
+        }
+        .nav-bar a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div>
+            <button class="button">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-side">
+            <h4>Left side</h4>
+            <p>Introduction:</p>
+            <button class="button">Button 1</button><br>
+            <button class="button">Button 2</button><br>
+            <button class="button">Button 3</button><br>
+            <button class="button">Button 4</button><br>
+            <button class="button">Button 5</button><br>
+            <button class="button">Button 6</button><br>
+            <button class="button">Button 7</button><br>
+        </div>
+        <div class="right-side">
+            <h4>Right side</h4>
+            <div class="article-box">
+                <h5>Article 1</h5>
+                <p>This is the content of the first article.</p>
+            </div><br>
+            <div class="article-box">
+                <h5>Article 2</h5>
+                <p>This is the content of the second article.</p>
+            </div><br>
+            <div class="article-box">
+                <h5>Article 3</h5>
+                <p>This is the content of the third article.</p>
+            </div><br>
+            <div class="article-box">
+                <h5>Article 4</h5>
+                <p>This is the content of the fourth article.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>
