@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap_grid_system_or_buttons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        p {
+            background-color: goldenrod;
+        }
+
+        .col-sm-4 {
+            background-color: turquoise;
+        }
+
+        .col-lg-4 {
+            background-color: rgb(123, 224, 64);
+        }
+
+        .border {
+            color: brown;
+            background-color: white;
+        }
+
+
+
+        /* buttons */
+        button {
+            margin: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bootstrap_Grid system </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p>this is para 1 in bootstrap_grid_system.</p>
+
+            </div>
+            <div class="col-md-4">
+                <p>this is para 2 in bootstrap_grid_system.</p>
+
+            </div>
+            <div class="col-md-4">
+                <p>this is para 3 in bootstrap_grid_system.</p>
+
+            </div>
+
+        </div>
+
+        <h1>this is small col</h1>
+        <div class="row">
+            <p class="col-sm-4">this is para 1 in second row in bootstrap_grid_system.</p>
+            <p class="col-sm-4">this is para 2 in second row in bootstrap_grid_system.</p>
+            <p class="col-sm-4">this is para 3 in second row in bootstrap_grid_system.</p>
+
+        </div>
+
+
+        <h1>this is large col</h1>
+        <div class="row">
+            <p class="col-lg-4">this is para 1 in second row in bootstrap_grid_system.</p>
+            <p class="col-lg-4">this is para 2 in second row in bootstrap_grid_system.</p>
+            <p class="col-lg-4">this is para 3 in second row in bootstrap_grid_system.</p>
+
+        </div>
+
+
+
+        <h1>this is border</h1>
+
+        <div class="row">
+            <p class="border">this is para 1 in second row in bootstrap_grid_system.</p>
+            <p class="border border-primary">this is para 2 in second row in bootstrap_grid_system.</p>
+            <p class="border border-success">this is para 3 in second row in bootstrap_grid_system.</p>
+
+        </div>
+
+
+    </div>
+
+    <h1>Bootstrap buttons</h1>
+
+    <!-- mt-5   means margin at top is 5  and bootstrap has mt-1,mt-2,mt-3,mt-4,mt-5  -->
+    <div class="container mt-5">
+        <button class="btn btn-danger">Click</button>
+        <button class="btn btn-primary">send</button>
+        <button class="btn btn-light">to send</button>
+        <button class="btn btn-warning">waseee</button>
+
+        <button type="button" class="btn btn-primary">push</button>
+        <button type="button" class="btn btn-outline-warning">pull</button>
+
+    </div>
+
+
+
+
+
+    <h1>Bootstrap tables</h1>
+
+
+    <!-- table #1 option  -->
+    <p>table 1 option</p>
+
+    <div class="container mt-3">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Name :</th>
+                    <th>ID :</th>
+                    <th>persona :</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+    </div>
+
+    </tbody>
+
+    </table>
+
+
+
+    <!-- table #2 option  -->
+    <p>table 2 option</p>
+
+    <div class="container mt-3">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name :</th>
+                    <th>ID :</th>
+                    <th>persona :</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+    </div>
+
+    </tbody>
+
+    </table>
+
+
+
+
+
+
+    <!-- table #3 option  -->
+    <p>table 3 option</p>
+
+
+    <div class="container mt-3">
+        <table class="table table-active">
+            <thead>
+                <tr>
+                    <th>Name :</th>
+                    <th>ID :</th>
+                    <th>persona :</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ghhg
+                    </td>
+                    <td>
+                        hjkjj
+                    </td>
+                    <td>
+                        hkjkkj
+                    </td>
+                </tr>
+    </div>
+
+    </tbody>
+
+    </table>
+
+
+
+
+</body>
+
+</html>
