@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="js_2.js"></script>
+
+</head>
+
+<body>
+
+
+    <h1>1. Statements</h1>
+
+
+
+
+    <h1>2. Syntax</h1>
+
+
+
+
+    <h1>3. Comments</h1>
+
+
+
+
+
+
+
+    <h1>4. Variables</h1>
+
+
+
+
+
+
+
+    <h1>5. let and const</h1>
+
+
+
+
+
+
+
+
+
+    <h1>6. Operations</h1>
+    <script>
+        function operator(num1, num2) {
+            let add = num1 + num2;
+            console.log(" addition:", add);
+
+            let sub = num1 - num2;
+            console.log(" subtraction:", sub);
+
+            let mul = num1 * num2;
+            console.log(" multiplication  ", mul);
+
+            let div = num1 / num2;
+            console.log(" division:", div);
+
+        }
+        let num3 = 10;
+        let num4 = 5;
+        operator(num3, num4);
+    </script>
+
+
+
+
+
+
+
+    <h1>7. Arithmetic Operators</h1>
+    <script>
+        function calculate(num5) {
+            let square = num5 * num5;
+            let cube = num5 * num5 * num5;
+            console.log(" number :", num5);
+            console.log(" square :", square);
+            console.log(" cube : ", cube);
+        }
+        let num5 = 4;
+        calculate(num5);
+    </script>
+
+
+
+
+
+
+
+    <h1>8. Assignment Operators</h1>
+    <script>
+        let number = 10;
+        console.log(" initial value:", number);
+        number += 5;
+        console.log("after += 5:", number);
+        number -= 3;
+        console.log("After -= 3:", number);
+        number *= 2;
+        console.log("After *= 2:", number);
+        number /= 4;
+        console.log("After /= 4:", number);
+        number %= 3;
+        console.log("After %= 3:", number);  
+    </script>
+
+
+
+
+
+
+
+
+    <h1>9. Data Types </h1>
+    <script>
+        let Age = 30;
+        let Name = "Agha";
+        let IsStudent = true;
+        let address;
+        let empty = null;
+        let person = { name: "Bob", age: 25 };
+        let colors = ["red", "green", "blue"];
+
+        console.log("Type of age:", typeof Age);
+        console.log("Type of name:", typeof Name);
+        console.log("Type of isStudent:", typeof IsStudent);
+        console.log("Type of address:", typeof address);
+        console.log("Type of empty:", typeof empty);
+        console.log("Type of person:", typeof person);
+        console.log("Type of colors:", typeof colors);  
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- this is the intro comment in html -->
+    <br>
+    <hr>
+    <hr>
+    <h1>Sir Ali haris JavaScript</h1>
+    <h2 id="a1">waseeee</h2>
+    <p id="change_color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fugit nisi modi sed aut dicta
+        fuga. Consequuntur rerum itaque obcaecati, assumenda dicta voluptate placeat beatae aliquid, nihil est quidem
+        minima eius maxime magni sunt?</p>
+
+
+
+    <button type="button" onclick="document.getElementById('a1').innerText='Ye tu change ho gya....'"> click
+        this</button>
+
+
+
+    <button class="btn btn-danger" onclick="begin()">now for this click you change multiples </button>
+
+    <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ipsa, dolorum aliquid illo
+        recusandae dolor quisquam odit voluptatibus modi nobis earum neque omnis maiores iusto quod quis facere id.
+        Eveniet, voluptates ratione.</p>
+
+    <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ipsa, dolorum aliquid illo
+        recusandae dolor quisquam odit voluptatibus modi nobis earum neque omnis maiores iusto quod quis facere id.
+        Eveniet, voluptates ratione.</p>
+
+    <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ipsa, dolorum aliquid illo
+        recusandae dolor quisquam odit voluptatibus modi nobis earum neque omnis maiores iusto quod quis facere id.
+        Eveniet, voluptates ratione.</p>
+
+    <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ipsa, dolorum aliquid illo
+        recusandae dolor quisquam odit voluptatibus modi nobis earum neque omnis maiores iusto quod quis facere id.
+        Eveniet, voluptates ratione.</p>
+
+
+    <button class="btn btn-primary" onclick="another()">select</button>
+
+
+    <script>
+        function win_close() {
+            window.close();
+            console.log("enddd");
+        }
+    </script>
+    <button class="btn btn-warning" onclick="win_close()"> Exit --->it will exit your current screen</button>
+
+
+
+
+
+
+
+
+    <br><br>
+    <button type="button" onclick="cridentials()"> Cridentials entry point</button>
+
+
+    <br>
+    <hr>
+    <button type="button" onclick="confirma()"> confirm wal button</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <button class="btn btn-primary" onclick="list_print()">list_print</button>
+
+
+
+
+    <!-- another method............................ -->
+
+
+    <!-- 
+<script>
+
+function list_print()
+{
+    // if array like come
+    let  celll= new Array(5);
+    celll[0]='aaa';
+    celll[1]='bbb';
+    celll[2]='ccc';
+    celll[3]='ddd';
+    celll[4]='eee'; 
+    for (var dd  in celll)
+    {
+        document.write (celll[dd],"<br>" );
+     
+    }  
+
+
+    // if  dictionary like come
+    let cel1111={1:'agha' , 2:'ali', 3:'llla', 4:'sjks'};
+    // document.write(cel1111[1]);
+
+    for (let v in cel1111)
+    {
+        document.write(cel1111[v],"<br>");
+    }
+
+}
+</script>
+<br>
+<button class="btn btn-primary"  onclick="list_print()">list_print</button>
+
+  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
